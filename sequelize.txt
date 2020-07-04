@@ -1,0 +1,4 @@
+yarn sequelize db:create // Cria banco
+yarn sequelize migration:create --name=create-users // Cria tabela
+yarn sequelize db:migrate // up na migration
+yarn sequelize db:migrate:undo // rollback 
